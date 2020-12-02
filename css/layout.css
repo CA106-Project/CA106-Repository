@@ -1,0 +1,47 @@
+/* code to make an image gallery learned from https://www.w3schools.com/css/css_image_gallery.asp */
+/* navigation styles */
+/* learnt about styling navigation bars from https://www.w3schools.com/css/css_navbar.asp*/
+.page-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #48297A, #822E81);
+}
+.page-nav li {
+    float: left;
+}
+.page-nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.page-nav li a:hover{
+    background-color: #1a1b25;
+    color: white;
+}
+/* page header styles*/
+.header-content{
+    text-align: center;
+}
+/* main layout */
+.main-style{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+}
+
+/* background colours for sections */
+body{
+    background-color: #1A1B25;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* footer styling */
+footer{
+    text-align: right;
+}
