@@ -1,0 +1,143 @@
+p {
+    font-size: 150%;
+}
+img {
+    margin:15px;
+}
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+hr {
+    border-top: 5px dotted #973595;
+    border-bottom: 5px dotted transparent;
+    border-left: transparent;
+    border-right: transparent;
+    margin:0;
+    padding: 0;
+}
+.page-nav {
+    width: 100%;
+    position: fixed;
+    display: block;
+    border-bottom:10px solid #392061;
+}
+
+.page-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to right, #48297A, #973595);
+    text-shadow: 5px 5px 5px #1a1b25;
+    
+}
+.page-nav li {
+    float: left;
+}
+.page-nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:200%;
+}
+.page-nav li a:hover{
+    background-color: #1a1b25;
+    color: white;
+}
+/* page header styles*/
+.header-content{
+    text-align: left;
+    font-size: 200%;
+}
+.title {
+    margin-bottom:0px;        
+}
+.subtitle {
+    margin-top: 0px;
+    color:#adacad;
+    font-style: italic;
+    font-size: 100%;
+}
+.heading {
+    margin-top: 0px;
+    color:#adacad;
+    text-decoration: underline;
+    font-size: 200%;    
+}
+.main-style{
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+    background-color: rgba(130,46,129,0.2);
+}
+.main-style-home{
+    margin-left: 15%;
+    margin-right: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+}
+.home-buttons a {
+    float:left;
+    padding:10px;
+    margin: 15px;
+    background-color: #48297A;
+    text-decoration: none;
+    color:white;
+    box-shadow: 0px 0px 10px black;
+    font-size: 200%;
+}
+.home-buttons a:hover {
+    background-color: #973595;   
+}
+
+body{
+    background-color: #191A24;
+    /* background-image: linear-gradient(to right, #000000, #2A2C3C); */
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin:0;
+    padding: 0;
+}
+.column {
+    padding-left: 3%;
+    margin-left: 1%;
+    border-left: 5px dotted #973595;
+    float: left;
+    width: 45%;
+}
+table {
+    width: 60%;
+}
+table, th, td {
+    margin-left: 20%;
+    border: 3px solid #973595;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 20px;
+    margin-right:20%;
+    
+}
+tr:hover {
+    background-color: #1a1b25;
+}
+caption {
+    margin-top: 5px;
+    caption-side: bottom;
+}
+caption a {
+    text-decoration: underline;
+    color:white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    text-align: right;
+}
